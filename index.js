@@ -1,5 +1,5 @@
-const X_IMAGE_URL = '/img/x.png';
-const O_IMAGE_URL = '/img/0.png';
+ const X_IMAGE_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1083533/x.png';
+ const O_IMAGE_URL = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1083533/circle.png';
 
 function assignSpace(space, owner) {
     const image = document.createElement('img');
