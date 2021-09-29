@@ -1,0 +1,47 @@
+:root {
+    --grid-size: 450px;
+    --margin-size: 10px;
+    --square-size: calc((var(--grid-size) / 3) - var(--margin-size));
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/img/zac-porter-T2wDwrsjTZc-unsplash.jpg);
+    /* opacity: 0.9; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grid {
+    width: 100%;
+    margin: auto;
+    align-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: var(--grid-size);
+    width: var(--grid-size);
+    opacity: 0.60;
+}
+
+#grid div {
+    background-color: rgb(255 222 167);
+    height: var(--square-size);
+    width: var(--square-size);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid div img {
+    width: 100%;
+}
+.results{
+    border: 2px solid green;
+    text-align: center;
+}
+
